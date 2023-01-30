@@ -1,0 +1,160 @@
+/* font-family: 'DM Sans', sans-serif; */
+/* font-family: 'Rosario', sans-serif; */
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/* --- HEADER --- */
+.header {
+    padding: 50px 0 43px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header__menu-link {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header__buttons{
+    display: flex;
+}
+
+.header__buttons button{
+    border: none;
+}
+
+.header__button-search {
+    margin-right: 28px;
+    background-color: #FFF;
+}
+
+.header__button-buy {
+    margin-right: 32px;
+    background-color: #FFF;
+}
+
+.header__button-regestar {
+    padding: 10px 23px;
+    background-color: #09A66D;
+    border-radius: 5px;
+}
+.header__button-regestar a{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* --- SECTION CONTENT --- */
+.content {
+    background-color: #F3FBF8;
+    
+}
+.container {
+}
+.content__inner {
+    padding-top: 93px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.content__inner-title {
+    margin-bottom: 20px;
+    font-family: 'Rosario';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    z-index: 1;
+}
+.content__inner-text {
+    color: #555555;
+    max-width: 637px;
+    margin: 0 auto 40px;
+    z-index: 1;
+}
+.content__inner-box {
+    padding-bottom: 500px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 1;
+}
+.content__inner-box span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.content__inner-button{
+    background-color: #F3FBF8;
+    border: none;
+    
+}
+.content__decor-1{
+    position: absolute;
+    left: -75px;
+    top: -30px;
+}
+.content__decor-2{
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+}
+
+.content__box-items{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+
+}
