@@ -1,0 +1,170 @@
+@import './colors.scss';
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, a, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    color: $black;
+    font-family: $dm;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+// *** HEADER ***
+.header-top {
+    padding: 50px 15px 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header__button-search,
+.header__button-buy {
+    margin-right: 20px;
+    border: none;
+    background-color: $white;
+}
+
+.header__button-buy {
+    margin-right: 32px;
+}
+
+.header__button-regestar {
+    padding: 10px 23px;
+    background-color: $green;
+    border: none;
+    border-radius: 8px;
+}
+
+.header__button-regestar-link {
+    color: $white;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+// *** HEADER CONTENT ***
+.header-content{
+    background-color: $black-squeeze;
+    text-align: center;
+}
+
+.header-content__inner{
+    position: relative;
+    padding-top: 93px;
+}
+
+.header-content__title{
+    font-family: $rosa;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.header-content__text{
+    max-width: 637px;
+    text-align: center;
+    color: $grey;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto 40px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.header-content__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+    padding-bottom: 453px;
+
+    span{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+// I've used the '.button--arrow' for the section 'header-content' and also for the section 'explor'.
+.button--arrow{
+    border: none;
+    background-color: $black-squeeze;
+
+    img{
+        background-color: $black-squeeze;
+    }
+}
+
+.header-content__box-items {
+    position: absolute;
+    bottom: 50px;
+    right: 0px; 
+}
+
+.header-content__box-items img {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.header-content__decor-1{
+    position: absolute;
+    top: -40px;
+    left: -60px;
+}
+
+.header-content__decor-2{
+    max-width: 862px;
+    height: 456px;
+    position: absolute;
+    left: -45px;
+    bottom: 10px;
+}
+
