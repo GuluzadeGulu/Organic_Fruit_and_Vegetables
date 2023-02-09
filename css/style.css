@@ -158,4 +158,67 @@ body {
   bottom: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.about {
+  padding: 140px 0 146px;
+}
+
+.about-inner {
+  display: flex;
+  position: relative;
+}
+
+.question {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 90px;
+  font-family: "Rosario", sans-serif;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 56px;
+}
+
+.service {
+  display: flex;
+  gap: 24px;
+  padding: 40px 60px 40px;
+  max-width: 500px;
+}
+
+.online-order {
+  background-color: #F3FBF8;
+}
+
+.serviceAllDay {
+  margin-bottom: 50px;
+}
+
+.service-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-service {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.about-service-text {
+  color: #555555;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 236px;
+}
+
+.about-box-2 {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
