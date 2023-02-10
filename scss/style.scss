@@ -233,3 +233,54 @@ body{
     display: flex;
     align-items: center;
 }
+
+// *** SECTION EXPLOR ***
+.explor{
+    background-color: #F3FBF8;
+    padding: 88px 0 143px;
+}
+
+.explor-inner{
+    display: flex;
+    gap: 50px;
+}
+
+.explor-box-2{
+    position: relative;
+}
+
+.explor-title{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 90px;
+    font-family: $rosa;
+    margin-bottom: 20px;
+}
+
+.explor-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: $grey;
+    margin-bottom: 82px;
+}
+
+.explor__btn-arrow{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0 20px;
+
+    span{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+.explor-decor-img{
+    position: absolute;
+    left: 127px;
+    bottom: -153px;
+}
