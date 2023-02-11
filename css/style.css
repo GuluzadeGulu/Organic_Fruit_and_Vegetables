@@ -319,4 +319,94 @@ body {
 
 .arrow-left-btn {
   right: 296px;
+}
+
+.app {
+  padding-bottom: 139px;
+}
+
+.app-inner {
+  padding: 0 100px;
+  display: flex;
+  gap: 112px;
+}
+
+.title-app {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  font-family: "Rosario", sans-serif;
+  margin-bottom: 20px;
+}
+
+.text-app {
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  margin-bottom: 50px;
+}
+
+.footer {
+  padding: 67px 0 118px;
+}
+
+.footer-inner {
+  display: flex;
+  gap: 0 157px;
+}
+
+.footer__logo-img {
+  margin-bottom: 30px;
+}
+
+.footer__content-1__text {
+  max-width: 345px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.footer__content-2 {
+  display: flex;
+  gap: 142px;
+  align-items: center;
+}
+
+.text-navigator,
+.text-resources,
+.contact {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 40px;
+}
+
+.footer__list-link,
+.footer__resources__list-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #555555;
+}
+
+.footer__list-item,
+.footer__resources__list-item {
+  margin-bottom: 24px;
+}
+
+.footer__list-item--lastChild,
+.footer__resources__list-item--lastChild {
+  margin: 0;
+}
+
+.mail {
+  display: block;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+
+.box-icons {
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=style.css.map */
