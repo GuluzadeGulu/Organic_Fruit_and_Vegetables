@@ -49,6 +49,7 @@ body{
     align-items: center;
     text-align: center;
     position: relative;
+    margin-bottom: 593px;
 
     h1, p, a{
     z-index: 1;
@@ -106,7 +107,50 @@ body{
 }
 
 // *** SECTION ABOUT ***
+.about{
 
+    h2{
+        font-family: $rosa;
+        margin-bottom: 20px;
+        @include sample($fz70, $fw700, $lh90);
+    }
+
+    p{
+        color: $grey;
+    }
+
+    #about-text{
+        display: block;
+        max-width: 637px;
+        @include sample($fz18, $fw400, $lh30);
+    }
+
+    .about-inner{
+        display: flex;
+
+        .about-content-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-content-1 > div{
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            
+            
+            .box{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+}
 // *** SECTION EXPLOR ***
 
 // *** SECTION COMMMENT ***
