@@ -133,7 +133,7 @@ body {
 .about h2 {
   font-family: "Rosario", sans-serif;
   margin-bottom: 20px;
-  font-size: 70px;
+  font-size: 66px;
   font-weight: 700;
   line-height: 90px;
 }
@@ -143,25 +143,27 @@ body {
 .about #about-text {
   display: block;
   max-width: 637px;
+  margin-bottom: 56px;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
 }
 .about .about-inner {
   display: flex;
+  align-items: flex-end;
 }
-.about .about-inner .about-content-1 {
+.about .about-inner .about-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.about .about-inner .about-content-1 > div {
+.about .about-inner .about-content > div {
   display: flex;
   align-items: center;
   margin-bottom: 60px;
 }
-.about .about-inner .about-content-1 > div .box {
+.about .about-inner .about-content > div .box {
   display: flex;
   align-items: flex-start;
   flex-direction: column;

@@ -112,7 +112,7 @@ body{
     h2{
         font-family: $rosa;
         margin-bottom: 20px;
-        @include sample($fz70, $fw700, $lh90);
+        @include sample(66px, $fw700, $lh90);
     }
 
     p{
@@ -122,20 +122,22 @@ body{
     #about-text{
         display: block;
         max-width: 637px;
+        margin-bottom: 56px;
         @include sample($fz18, $fw400, $lh30);
     }
 
     .about-inner{
         display: flex;
+        align-items: flex-end;
 
-        .about-content-1{
+        .about-content{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
 
-        .about-content-1 > div{
+        .about-content > div{
             display: flex;
             align-items: center;
             margin-bottom: 60px;
