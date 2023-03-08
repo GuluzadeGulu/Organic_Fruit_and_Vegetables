@@ -108,6 +108,7 @@ body{
 
 // *** SECTION ABOUT ***
 .about{
+    margin-bottom: 146px;
 
     h2{
         font-family: $rosa;
@@ -154,11 +155,68 @@ body{
     }
 }
 // *** SECTION EXPLOR ***
+.explor{
+    padding: 88px 0 143px;
+    .container{
+        display: flex;
+        justify-content: space-between;
 
+        div{
+            position: relative;
+        }
+    }
+
+    h2{
+        max-width: 557px;
+        margin: calc(119.28px - 88.76px) 0 20px;
+        font-family: $rosa;
+        @include sample($fz70, $fw700, $lh90)
+    }
+
+    p{
+        color: $grey;
+        margin-bottom: 50px;
+        max-width: 574px;
+        @include sample($fz18, $fw400, $lh30);
+    }
+
+    #explor-leaves-decor{
+        position: absolute;
+    }
+}
 // *** SECTION COMMMENT ***
 
 // *** SECTION APP ***
+.app{
 
+    .container-small{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #headling-download-app{
+        padding: 33px 0 16px;
+        border-color: $black-squeeze;
+    }
+
+    h2{
+        margin-bottom: 20px;
+        max-width: 662px;
+        font-family: $rosa;
+        @include sample($fz70, $fw700, $lh90)
+    }
+
+    p{
+        margin-bottom: 50px;
+        color: $grey;
+        max-width: 574px;
+        @include sample($fz18, $fw400, $lh30);
+    }
+
+    #app-store{
+        margin-right: 24px;
+    }
+}
 // *** FOOTER ***
 
 // ************* MEDIA  *************
